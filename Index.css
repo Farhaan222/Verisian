@@ -1,0 +1,40 @@
+div{
+    height: 70px;
+    width:200px;
+}
+@font-face {
+    font-family: sans-serif-1;
+    src: url("Manrope-Medium.ttf");
+}
+.part1{
+    background-color: rgb(21, 21, 26);
+    color: rgb(247, 164, 0);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 8px 5px;
+    font-family:sans-serif-1;
+}
+
+.part2{
+    background-color: rgb(247, 164, 0);
+    color: rgb(21, 21, 26);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 8px 5px;
+    font-family:sans-serif-1;
+}
+
+.part3{
+    background-color: rgb(21, 21, 26);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 8px 5px rgb(21, 21, 26);
+    font-family:sans-serif-1;
+}
+.part3 .part31{
+    width:200px;
+    height: 2px;
+    background-color: white;
+}
